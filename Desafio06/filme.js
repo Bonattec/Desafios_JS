@@ -18,9 +18,16 @@ const filme = {
     genero: "Aventura",
     ano: 2012
 }
+const filme2 = {
+    titulo: "O Shrek",
+    genero: "Comédia",
+    ano: 2001
+}
 
-function exibirObjeto() {
-    console.log(`Meu filme favorito é ${filme.titulo}, ele é do gênero de ${filme.genero} e lançou no ano de ${filme.ano}`)
+
+function exibirObjeto(exibir) {
+    console.log(`Meu filme favorito é ${exibir.titulo}, ele é do gênero de ${exibir.genero} e lançou no ano de ${exibir.ano}`)
 }
 
 exibirObjeto(filme)
+exibirObjeto(filme2)
