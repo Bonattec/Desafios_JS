@@ -13,7 +13,15 @@ os produtos que custam mais de R$ 100,00
 Exiba o nome dos produtos encontrados
 */
 
-let nomeProdutos = ["Placa-mãe", "SSD", "Processador", "Mouse", "Microfone"];
-let precoProdutos = [700, 350, 1200, 70, 90];
-    for (precoProdutos  >  100 ; precoProdutos, nomeProdutos)  {
-        console.log(nomeProdutos + precoProdutos)}
+const produtos = [
+    {nome: "Placa-mãe", preco: 700},
+    {nome:"SSD", preco: 200},
+    {nome: "Mouse", preco: 90},
+    {nome: "Microfone", preco: 70},
+];
+    for (let i = 0; i < produtos.length; i++) {
+        if(produtos[i].preco > 100){
+            console.log(produtos[i].nome)
+        }
+        
+    }
