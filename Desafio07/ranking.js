@@ -16,6 +16,6 @@ A posição deve ser gerada automaticamente pelo sistema.
 */
 const jogadores = ["Gabriel", "Lucas", "Luiz", "Leonardo"]
     for(i = 0; i < jogadores.length; i++) {
-        console.log(jogadores[i])
+        console.log(`${[i + 1]}° Jogador: ${jogadores[i]}`)
         
     }
